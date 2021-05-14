@@ -9,6 +9,7 @@ Dotfiles for a tiling WM based arch install
  
  - git
  - xterm
+ - python
  
 ## Dotbot
 
