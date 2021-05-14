@@ -6,4 +6,6 @@
 
 - link:
     ~/.Xresources:
-        path: XTerm/Xresources
+      path: XTerm/Xresources
+    ~/.Xresources.d:
+      path: XTerm/Xresources.d
