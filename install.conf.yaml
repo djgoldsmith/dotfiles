@@ -9,3 +9,6 @@
       path: XTerm/Xresources
     ~/.Xresources.d:
       path: XTerm/Xresources.d
+    ~/.config/herbstluftwm:
+      path: Herbstluft/
+

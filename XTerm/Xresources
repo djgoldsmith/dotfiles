@@ -9,7 +9,10 @@ XTerm*selectToClipboard: true
 ! We have a bit of a hack here because of 4k screen on the old laptop
 #ifdef SRVR_dang_laptop
     xterm*faceSize: 24
+#else
+    xterm*faceSize: 12
 #endif
+
 
 ! Stop Meta Being Weird and Adduing Unicode
 XTerm.vt100.metaSendsEscape: true
