@@ -1,0 +1,9 @@
+- defaults:
+    link:
+      relink: true
+
+- clean: ['~']
+
+- link:
+    ~/.Xresources:
+        path: XTerm/Xresources
