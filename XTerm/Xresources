@@ -1,0 +1,22 @@
+! Use a nice truetype font and size by default... 
+!xterm*faceName: DejaVu Sans Mono Book
+xterm*faceName: Hack Nerd Font
+!xterm*faceName: Hack
+
+xterm*renderFont: true
+XTerm*selectToClipboard: true
+
+! We have a bit of a hack here because of 4k screen on the old laptop
+#ifdef SRVR_dang_laptop
+    xterm*faceSize: 24
+#endif
+
+! Stop Meta Being Weird and Adduing Unicode
+XTerm.vt100.metaSendsEscape: true
+
+! Aparently there is a EMacs issue with Ctrl-H
+XTerm.vt100.backarrowKey: true
+XTerm.ttyModes: erase ^?
+
+#include ".Xresources.d/terminalTheme"
+!#include ".Xresources.d/codeschoolTheme"
