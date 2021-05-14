@@ -1,7 +1,7 @@
 ! Use a nice truetype font and size by default... 
 !xterm*faceName: DejaVu Sans Mono Book
-!xterm*faceName: Hack Nerd Font
-xterm*faceName: Hack
+xterm*faceName: Hack Nerd Font
+!xterm*faceName: Hack
 
 xterm*renderFont: true
 XTerm*selectToClipboard: true
@@ -18,7 +18,5 @@ XTerm.vt100.metaSendsEscape: true
 XTerm.vt100.backarrowKey: true
 XTerm.ttyModes: erase ^?
 
-! Proper Colors for the Terminal
-XTerm.vt100.reverseVideo: false
-
 #include ".Xresources.d/terminalTheme"
+!#include ".Xresources.d/codeschoolTheme"
