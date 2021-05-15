@@ -19,5 +19,9 @@
       path: Herbstluft/autostart
     ~/.config/herbstluftwm/runpoly:
       path: Herbstluft/runpoly
+      
+    # -- Polybar
+    ~/.config/polybar/config:
+      path: Polybar/config
     
 
