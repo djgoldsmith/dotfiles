@@ -9,7 +9,7 @@ Dotfiles for a tiling WM based arch install
  
  - git
  - xterm
-
+ - oh-my-zsh
 
 ## Dotbot
 
@@ -33,8 +33,11 @@ https://www.anishathalye.com/2014/08/03/managing-your-dotfiles/
   - i3lock
   - rofi
   - nitrogen
+  - polybar
   
-  
+## ZSH
+
+/usr/share/oh-my-zsh/templates/zshrc.zsh-template
   
   
 ## Credits 
