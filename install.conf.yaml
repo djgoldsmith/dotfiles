@@ -23,5 +23,10 @@
     # -- Polybar
     ~/.config/polybar/config:
       path: Polybar/config
-    
 
+    # --- Rofi
+    ~/.config/rofi/config.rasi:
+      path: Rofi/config.rasi
+      create: True
+    ~/.config/rofi/theme.rasi:
+      path: Rofi/theme.rasi
