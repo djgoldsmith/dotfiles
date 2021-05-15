@@ -30,3 +30,8 @@
       create: True
     ~/.config/rofi/theme.rasi:
       path: Rofi/theme.rasi
+
+    # --- Zshell
+    ~/.zshrc:
+      path: Zsh/zshrc
+    
