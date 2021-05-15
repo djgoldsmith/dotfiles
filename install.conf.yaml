@@ -4,11 +4,29 @@
 
 - clean: ['~']
 
+- create:
+    - ~/.config/herbstluftwm
+    - ~/.config/polybar
+  
 - link:
     ~/.Xresources:
       path: XTerm/Xresources
     ~/.Xresources.d:
       path: XTerm/Xresources.d
-    ~/.config/herbstluftwm:
-      path: Herbstluft/
 
+    # ---- Herbsluft
+    ~/.config/herbstluftwm/autostart:
+      path: Herbstluft/autostart
+    ~/.config/herbstluftwm/runpoly:
+      path: Herbstluft/runpoly
+      
+    # -- Polybar
+    ~/.config/polybar/config:
+      path: Polybar/config
+
+    # --- Rofi
+    ~/.config/rofi/config.rasi:
+      path: Rofi/config.rasi
+      create: True
+    ~/.config/rofi/theme.rasi:
+      path: Rofi/theme.rasi

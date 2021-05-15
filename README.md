@@ -10,6 +10,8 @@ Dotfiles for a tiling WM based arch install
  - git
  - xterm
  - oh-my-zsh
+ - python
+
 
 ## Dotbot
 
