@@ -75,7 +75,7 @@ font-2 = DejaVu Sans Book:size=18;1
 modules-left = ewmh
 ;modules-center= xkeyboard
 ;filesystem xbacklight xkeyboard memory cpu wlan eth battery temperature date powermenu
-modules-right = memory cpu wlan eth battery temperature date
+modules-right = xbacklight xkeyboard memory cpu wlan eth battery temperature date
 
 ;;If I have a System Tray
 tray-position = right
@@ -194,8 +194,17 @@ label-song-ellipsis = true
 [module/xbacklight]
 type = internal/xbacklight
 
-format = <label> <bar>
-label = BL
+format = <label> <ramp>
+; Available tokens:
+;   %percentage% (default)
+label = %percentage%%
+
+; Only applies if <ramp> is used
+ramp-0 = 
+ramp-1 = 
+ramp-2 = 
+ramp-3 = 
+ramp-4 = 
 
 bar-width = 10
 bar-indicator = |

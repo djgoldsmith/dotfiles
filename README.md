@@ -47,3 +47,5 @@ https://www.anishathalye.com/2014/08/03/managing-your-dotfiles/
 Cool wallpaper from 
 
 https://bbs.archlinux.org/viewtopic.php?id=259604
+
+https://github.com/Sir-Batman/herbstluftConfig
