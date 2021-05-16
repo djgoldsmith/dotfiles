@@ -2,6 +2,17 @@
 
 Dotfiles for a tiling WM based arch install
 
+ - Herbstluft wm
+ - Polybar
+ - Rofi
+
+## Preview
+
+![Main Display](NewDesktop.png)
+
+
+![Rofi Menu](RofiMenu.png)
+
 ## Requirements
 
  - xorg-xserver
@@ -20,7 +31,9 @@ Used to manage the dotfiles themselves
 https://github.com/anishathalye/dotbot
 https://www.anishathalye.com/2014/08/03/managing-your-dotfiles/
 
-
+```
+./install -v
+```
 
 # Configs
 
@@ -41,11 +54,3 @@ https://www.anishathalye.com/2014/08/03/managing-your-dotfiles/
 
 /usr/share/oh-my-zsh/templates/zshrc.zsh-template
   
-  
-## Credits 
-
-Cool wallpaper from 
-
-https://bbs.archlinux.org/viewtopic.php?id=259604
-
-https://github.com/Sir-Batman/herbstluftConfig
