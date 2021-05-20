@@ -1,0 +1,9 @@
+- create:
+    - ~/.config/herbstluftwm
+
+- link:
+    # ---- Herbsluft
+    ~/.config/herbstluftwm/autostart:
+      path: Herbstluft/autostart
+    ~/.config/herbstluftwm/runpoly:
+      path: Herbstluft/runpoly

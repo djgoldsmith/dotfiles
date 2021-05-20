@@ -1,0 +1,4 @@
+- link:
+    # --- Zshell
+    ~/.zshrc:
+      path: Zsh/zshrc

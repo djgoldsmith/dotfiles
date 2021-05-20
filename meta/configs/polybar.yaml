@@ -1,0 +1,8 @@
+- create:
+    - ~/.config/polybar
+
+- link:      
+    # -- Polybar
+    ~/.config/polybar/config:
+      path: Polybar/config
+
