@@ -23,6 +23,8 @@ Dotfiles for a tiling WM based arch install
  - oh-my-zsh
  - python
  - xorg-xbacklight
+ - hack nerd fonts (AUR)
+ - polybar (AUR)
 
 ## Dotbot
 
@@ -34,6 +36,25 @@ https://www.anishathalye.com/2014/08/03/managing-your-dotfiles/
 ```
 ./install -v
 ```
+
+### Per Device configs
+
+https://github.com/anishathalye/dotbot/wiki/Tips-and-Tricks#how-can-i-have-different-groups-of-tasks-for-different-hosts-with-different-configurations
+
+We make use of the Meta/configs to have indiidual configs for applications
+
+```
+meta/profiels
+```
+
+Holds profiles for each of the different machines.
+
+Current profiles
+
+  - standard:   Laptop and VM
+  - 4k: 4k Screens
+
+
 
 # Configs
 
@@ -57,14 +78,11 @@ for differing screen relosutions / machines.
 /usr/share/oh-my-zsh/templates/zshrc.zsh-template
   
 
-## Per App Settings Magic
+## Polybar
 
-https://github.com/anishathalye/dotbot/wiki/Tips-and-Tricks#how-can-i-have-different-groups-of-tasks-for-different-hosts-with-different-configurations
+Now has 4k settings and standard screens
+Needs the Hack nerd font for Icons
 
-We make use of the Meta/configs to have indiidual configs for applications
+BUGS:  Non Nice naming of Network Interfaces menas some of this doesnt show
 
-```
-meta/profiels
-```
 
-Holds profiles for each of the different machines.

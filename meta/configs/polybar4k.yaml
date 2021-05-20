@@ -6,4 +6,4 @@
     ~/.config/polybar/config:
       path: Polybar/config
     ~/.config/polybar/screen_settings:
-      path: Polybar/FHD
+      path: Polybar/4kScreen

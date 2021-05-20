@@ -52,7 +52,7 @@
     highlight:     underline bold #ffffff;
 
     transparent: rgba(0,0,0,0);
-    font: "Hack 24";
+    font: "Hack 12";
 }
 window {
     location: center;

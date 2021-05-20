@@ -14,7 +14,7 @@ hc detect_monitors
 #feh --bg-scale /home/dang/.config/herbstluftwm/descent.jpg
 
 # PAdding at the top of the frame so polybar doennt cover everytihing (40)
-herbstclient pad 0 20 0 0
+herbstclient pad 0 0 0 0
 # And we can add custopadm padding for the second monitor (50)
 #herbstclient pad 1 50 0 0
 
@@ -160,9 +160,9 @@ hc set frame_transparent_width 1
 hc set frame_gap 10
 hc set frame_padding 0   #Take us right up the the edge of the Frame
 
-#hc attr theme.reset 1
+hc attr theme.reset 1
 hc attr theme.title_height 20
-#hc attr theme.title_font 'Dejavu Sans:pixelsize=20'  # example using Xft
+hc attr theme.title_font 'Hack :pixelsize=12'  # example using Xft
 hc attr theme.title_color '#d3d7cf'
 # hc attr theme.title_font '-*-fixed-medium-r-*-*-13-*-*-*-*-*-*-*'
 #hc attr theme.padding_top 2  # space below the title's baseline (i.e. text depth)
