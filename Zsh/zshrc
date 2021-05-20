@@ -116,4 +116,4 @@ fi
 
 source $ZSH/oh-my-zsh.sh
 
-source /home/dang/Build/git-subrepo/.rc
+#source /home/dang/Build/git-subrepo/.rc

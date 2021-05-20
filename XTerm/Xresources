@@ -21,5 +21,8 @@ XTerm.vt100.metaSendsEscape: true
 XTerm.vt100.backarrowKey: true
 XTerm.ttyModes: erase ^?
 
+#UK Keyboard
+setxkbmap gb
+
 #include ".Xresources.d/terminalTheme"
 !#include ".Xresources.d/codeschoolTheme"

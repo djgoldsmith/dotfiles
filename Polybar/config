@@ -67,9 +67,9 @@ padding-right = 2
 module-margin-left = 1
 module-margin-right = 2
 
-font-0 = Hack Nerd Font:size=18:style=Bold
-font-1 = DejaVuSansMono Nerd Font:style=Book:size=18
-font-2 = DejaVu Sans Book:size=18;1
+font-0 = Hack Nerd Font:size=12:style=Bold
+font-1 = DejaVuSansMono Nerd Font:style=Book:size=12
+font-2 = DejaVu Sans Book:size=12;1
 
 ;;Show the Window Switcher
 modules-left = ewmh

@@ -22,7 +22,7 @@ Dotfiles for a tiling WM based arch install
  - xterm
  - oh-my-zsh
  - python
-
+ - xorg-xbacklight
 
 ## Dotbot
 
