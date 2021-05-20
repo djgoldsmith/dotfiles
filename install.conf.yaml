@@ -9,10 +9,10 @@
     - ~/.config/polybar
   
 - link:
-    ~/.Xresources:
-      path: XTerm/Xresources
-    ~/.Xresources.d:
-      path: XTerm/Xresources.d
+#    ~/.Xresources:
+#      path: XTerm/Xresources
+#    ~/.Xresources.d:
+#      path: XTerm/Xresources.d
 
     # ---- Herbsluft
     ~/.config/herbstluftwm/autostart:
