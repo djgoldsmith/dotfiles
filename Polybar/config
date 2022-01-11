@@ -47,6 +47,12 @@ monitor = ${env:MONITOR:}
 ;monitor = ${env:MONITOR:eDP1}
 enable-ipc = true
 
+;
+
+;font-0 = Hack Nerd Font:size=12:style=Bold
+font-0 = Hack Nerd Font:style=Regular
+
+
 include-file=~/.config/polybar/screen_settings
 
 ;;Show the Window Switcher
@@ -474,8 +480,6 @@ padding-right = 2
 
 module-margin-left = 4
 module-margin-right = 0
-
-font-0 = Hack Nerd Font:size=12:style=Bold
 
 modules-left = ewmh
 ;modules-center = xwindow
