@@ -113,10 +113,11 @@ listview {
 element {
     padding: 3px;
     vertical-align: 0.5;
-//    border: 2px;
+    border: 2px;
     border-radius: 4px;
     background-color: transparent;
-    color: @foreground;
+    //color: @foreground;
+    color: @lightred;
     font:inherit;
 }
 element selected.normal {
@@ -129,9 +130,12 @@ element normal urgent {
     foreground: @lightred;
 }
 element alternate normal {
+    foreground: @lightred;
+        color: @dark;	
 }
 element alternate active {
     foreground: @lightblue;
+    color: @lightred;		
 }
 element alternate urgent {
     foreground: @lightred;
@@ -145,7 +149,7 @@ element selected urgent {
     foreground: @dark;
 }
 element normal normal {
-
+    color: @dark;
 }
 
 vertb {
