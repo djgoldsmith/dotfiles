@@ -9,10 +9,10 @@
     - ~/.config/polybar
   
 - link:
-#    ~/.Xresources:
-#      path: XTerm/Xresources
-#    ~/.Xresources.d:
-#      path: XTerm/Xresources.d
+    ~/.Xresources:
+      path: XTerm/Xresources
+    ~/.Xresources.d:
+      path: XTerm/Xresources.d
 
     # ---- Herbsluft
     ~/.config/herbstluftwm/autostart:
@@ -36,3 +36,7 @@
       path: Zsh/zshrc
     
 
+    # --- Zellij
+    ~/.config/zellij/config.yaml:
+      create: True
+      path: zellij/config.yaml
