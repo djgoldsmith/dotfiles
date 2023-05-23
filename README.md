@@ -40,6 +40,10 @@ https://www.anishathalye.com/2014/08/03/managing-your-dotfiles/
 ./install -v
 ```
 
+TODO:
+
+https://github.com/DrDynamic/dotbot-git
+
 ### Per Device configs
 
 https://github.com/anishathalye/dotbot/wiki/Tips-and-Tricks#how-can-i-have-different-groups-of-tasks-for-different-hosts-with-different-configurations
@@ -88,4 +92,7 @@ Needs the Hack nerd font for Icons
 
 BUGS:  Non Nice naming of Network Interfaces menas some of this doesnt show
 
+## Midnight Commander
 
+  - TODO:  Use Git plugin to get files.
+  

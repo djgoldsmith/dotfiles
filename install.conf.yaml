@@ -40,3 +40,4 @@
     ~/.config/zellij/config.yaml:
       create: True
       path: zellij/config.yaml
+
