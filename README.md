@@ -1,5 +1,8 @@
 # My Custom Dotfiles
 
+Makes us of Dotbot https://github.com/anishathalye/dotbot
+
+
 Dotfiles for a tiling WM based arch install
 
  - Herbstluft wm
