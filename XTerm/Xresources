@@ -20,6 +20,13 @@ XTerm.vt100.metaSendsEscape: true
 XTerm.*.backarrowKey: false
 !XTerm.ttyModes: erase ^?
 
+! For Xrvt
+URxvt.font: xft:Hack Nerd Font:size=24
+
+!Clibbaord
+URxvt.clipboard.autocopy: true
+URxvt.keysym.M-c: perl:clipboard:copy
+URxvt.keysym.M-v: perl:clipboard:paste8
 
 #include ".Xresources.d/terminalTheme"
 !#include ".Xresources.d/codeschoolTheme"
