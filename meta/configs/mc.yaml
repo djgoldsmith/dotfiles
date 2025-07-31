@@ -1,0 +1,10 @@
+- link:
+    $HOME/.local/share/mc/skins/dracula.ini:
+      create: true
+      path:  MC/dracula.ini
+    $HOME/.local/share/mc/skins/dracula256.ini:
+      create: true
+      path:  MC/dracula256.ini
+    $HOME/.config/mc/ini:
+      path: MC/ini
+      

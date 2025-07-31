@@ -7,22 +7,26 @@ xterm*renderFont: true
 XTerm*selectToClipboard: true
 
 ! We have a bit of a hack here because of 4k screen on the old laptop
-#ifdef SRVR_dang_laptop
+#ifdef SRVR_danglaptop
     xterm*faceSize: 24
 #else
     xterm*faceSize: 12
 #endif
 
-
 ! Stop Meta Being Weird and Adduing Unicode
 XTerm.vt100.metaSendsEscape: true
 
 ! Aparently there is a EMacs issue with Ctrl-H
-XTerm.vt100.backarrowKey: true
-XTerm.ttyModes: erase ^?
+XTerm.*.backarrowKey: false
+!XTerm.ttyModes: erase ^?
 
-#UK Keyboard
-setxkbmap gb
+! For Xrvt
+URxvt.font: xft:Hack Nerd Font:size=24
+
+!Clibbaord
+URxvt.clipboard.autocopy: true
+URxvt.keysym.M-c: perl:clipboard:copy
+URxvt.keysym.M-v: perl:clipboard:paste8
 
 #include ".Xresources.d/terminalTheme"
 !#include ".Xresources.d/codeschoolTheme"

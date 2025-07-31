@@ -1,5 +1,8 @@
 # My Custom Dotfiles
 
+Makes us of Dotbot https://github.com/anishathalye/dotbot
+
+
 Dotfiles for a tiling WM based arch install
 
  - Herbstluft wm
@@ -36,6 +39,10 @@ https://www.anishathalye.com/2014/08/03/managing-your-dotfiles/
 ```
 ./install -v
 ```
+
+TODO:
+
+https://github.com/DrDynamic/dotbot-git
 
 ### Per Device configs
 
@@ -85,4 +92,7 @@ Needs the Hack nerd font for Icons
 
 BUGS:  Non Nice naming of Network Interfaces menas some of this doesnt show
 
+## Midnight Commander
 
+  - TODO:  Use Git plugin to get files.
+  
