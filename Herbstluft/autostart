@@ -171,7 +171,9 @@ hc attr theme.active.color '#032c36'
 #hc attr theme.urgent.color orange
 #hc attr theme.inner_width 1
 #hc attr theme.inner_color white
-#hc attr theme.border_width 5
+# ------------ UCOMMENT FOR KPIT ----------
+# hc attr theme.border_width 50
+
 #hc attr theme.floating.border_width 4
 #hc attr theme.floating.outer_width 1
 #hc attr theme.floating.outer_color black
